@@ -1,0 +1,2 @@
+russianfedora-branding-release
+==============================
