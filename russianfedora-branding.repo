@@ -1,0 +1,24 @@
+[russianfedora-branding]
+name=Russian Fedora for Fedora $releasever - Branding
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/releases/$releasever/Everything/$basearch/os
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-debuginfo]
+name=Russian Fedora for Fedora $releasever - Branding - Debug
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/releases/$releasever/Everything/$basearch/debug
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-source]
+name=Russian Fedora for Fedora $releasever - Branding - Source
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/releases/$releasever/Everything/source/SRPMS
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+

@@ -1,0 +1,24 @@
+[russianfedora-branding-updates]
+name=Russian Fedora for Fedora $releasever - Branding - Updates
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/updates/$releasever/$basearch
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-updates-released-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-updates-debuginfo]
+name=Russian Fedora for Fedora $releasever - Branding - Updates Debug
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/updates/$releasever/$basearch/debug
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-updates-released-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-updates-source]
+name=Russian Fedora for Fedora $releasever - Branding - Updates Source
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/updates/$releasever/SRPMS
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-updates-released-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+

@@ -1,0 +1,24 @@
+[russianfedora-branding-rawhide]
+name=Russian Fedora for Fedora Rawhide - Branding
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/development/rawhide/$basearch/os/
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-rawhide&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-rawhide-debuginfo]
+name=Russian Fedora for Fedora Rawhide - Branding - Debug
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/development/rawhide/$basearch/debug/
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-debug-rawhide&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
+[russianfedora-branding-rawhide-source]
+name=Russian Fedora for Fedora Rawhide - Branding - Source
+#baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/development/rawhide/source/SRPMS
+mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-source-rawhide&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
+
