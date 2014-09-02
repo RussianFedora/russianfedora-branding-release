@@ -5,7 +5,7 @@
 
 Name:           russianfedora-%{repo}-release
 Version:        21
-Release:        0.1.R
+Release:        1.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
 Group:          System Environment/Base
@@ -111,6 +111,10 @@ fi
 
 
 %changelog
+* Tue Sep  2 2014 Arkady L. Shane <ashejn@russianfedora.ru> - 21-1.R
+- update to RFRemix 21
+- disable rawhide and enable release repos
+
 * Tue Mar  4 2014 Arkady L. Shane <ashejn@russianfedora.ru> - 21-0.1.R
 - bump release
 
