@@ -4,7 +4,7 @@
 %define repo branding
 
 Name:           russianfedora-%{repo}-release
-Version:        23
+Version:        24
 Release:        0.1.R
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -111,6 +111,9 @@ fi
 
 
 %changelog
+* Tue Jul 21 2015 Arkady L. Shane <ashejn@russianfedora.ru> - 24-0.1.R
+- update for new Rawhide
+
 * Thu Feb 19 2015 Arkady L. Shane <ashejn@russianfedora.ru> - 23-0.1.R
 - update for new Rawhide
 
