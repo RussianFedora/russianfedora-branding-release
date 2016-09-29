@@ -2,7 +2,7 @@
 name=Russian Fedora for Fedora Rawhide - Branding
 #baseurl=http://mirror.yandex.ru/fedora/russianfedora/russianfedora/branding/fedora/development/rawhide/$basearch/os/
 mirrorlist=http://mirrors.rfremix.ru/mirrorlist?repo=branding-fedora-rawhide&arch=$basearch
-enabled=1
+enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-russianfedora-branding-fedora
 
