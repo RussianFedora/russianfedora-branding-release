@@ -4,7 +4,7 @@
 %define repo branding
 
 Name:           russianfedora-%{repo}-release
-Version:        27
+Version:        28
 Release:        1
 Summary:        Russian Fedora (%{repo}) Repository Configuration
 
@@ -111,6 +111,9 @@ fi
 
 
 %changelog
+* Tue Sep 27 2018 Arkady L. Shane <ashejn@russianfedora.ru> - 28-1
+- update for RFRemix 28
+
 * Mon Aug 28 2017 Arkady L. Shane <ashejn@russianfedora.ru> - 27-1
 - update for RFRemix 27
 
